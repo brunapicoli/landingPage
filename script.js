@@ -8,4 +8,4 @@ function validateForm() {
   if (name != '') {
     alert(`Pronto ${name}! Confira seu e-mail para acessar o material.`)
   }
-};
+}

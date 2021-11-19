@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(230,230,230);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 16px;
+}
+
+button {
+    transition: 0.5s;
+}
+
+#banner {
+    text-align: center;
+    background-image: url("./images/banner.gif");
+    background-size: cover; 
+    padding: 180px 50px;
+    color: white;
+}
+
+#banner p {
+    opacity: 0.8;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+#banner button {
+    margin-top: 17px;
+    transition: 0.5s;
+}
+
+.cards {
+    margin: 50px 50px 0 50px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    margin: 50px;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 25px;
+    background: rgb(30, 30, 30);
+    color: lightgrey;
+}
+
+#footer a {
+    color: lightgrey;
+    font-size: 16px;
+}
+
+#footer a:hover {
+    color: brown;
+}

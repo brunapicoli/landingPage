@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Elon Quantitative Research</title>
+  <link rel="icon" href="images/favicon.ico">
+
+  <!-- bootstrap setup -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="banner">
+    <h1>Investimento para iniciantes</h1>
+    <h2>O que você deve saber antes de começar a investir na Bolsa de Valores</h2>
+    <button type="button" class="btn btn-danger btn-lg" onclick="showForm()">Download do e-book</button>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-6">
+        <div class="cards">
+          <h2>Para quem é este material</h2>
+          <p>Este e-book é para você que está pensando em investir, mas não sabe por onde começar. Ou, para você que já investe mas não possui os conhecimentos necessários para realizar boas escolhas. </p>
+          <p>Com este material, você estará preparado para tomar decisões inteligentes que mudarão o rumo dos seus investimentos.</p>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-6">
+        <div class="cards">
+          <h2>Sobre o conteúdo</h2>
+          <p>Neste material você vai encontrar informações essenciais para se tornar um bom investidor. Além disso, você receberá dicas simples e fáceis para colocar em prática e alavancar seu conhecimento.</p>
+          <p>Através de modelos quantitativos, nós oferecemos a você estratégias eficazes, a fim de auxiliar na sua tomada de decisão em investimentos.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <form class="form-inline">
+        <div class="form-group">
+          <label class="sr-only" for="name">Nome</label>
+          <input type="text" size="30" class="form-control" id="name" placeholder="Digite seu nome" required>
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="email">Email</label>
+          <input type="email" size="30" class="form-control" id="email" placeholder="Digite seu e-mail" required>
+        </div>
+        <button type="submit" class="btn btn-danger" onclick="validateForm()">Acessar e-book</button>
+      </form>
+    </div>
+  </div>
+
+  <div id="footer">
+    <ul class="list-inline">
+      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fab fa-github"></i></a></li>
+      <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+      <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+    </ul>
+    <p>This is a Landing Page created by Bruna Turati Picoli</p>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
